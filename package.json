@@ -1,0 +1,54 @@
+{
+  "name": "@skorpland/ssr",
+  "version": "0.0.5",
+  "description": "Use the Powerbase JavaScript library in popular server-side rendering (SSR) frameworks.",
+  "main": "dist/main/index.js",
+  "module": "dist/module/index.js",
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.main.json",
+    "test": "vitest --coverage"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skorpland/ssr.git"
+  },
+  "keywords": [
+    "Powerbase",
+    "SSR",
+    "Server-Side",
+    "Rendering",
+    "Next",
+    "Next.js",
+    "NextJS",
+    "Remix",
+    "Svelte",
+    "SvelteKit",
+    "Postgres"
+  ],
+  "author": "Powerbase, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skorpland/ssr/issues"
+  },
+  "homepage": "https://github.com/skorpland/ssr#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "@skorpland/powerbase-js": "^2.50.8",
+    "@vitest/coverage-v8": "^1.6.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.10.0",
+    "vitest": "^1.6.0"
+  },
+  "peerDependencies": {
+    "@skorpland/powerbase-js": "^2.50.8"
+  },
+  "dependencies": {
+    "cookie": "^1.0.1"
+  } 
+}
