@@ -1,6 +1,6 @@
 {
   "name": "@skorpland/ssr",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Use the Powerbase JavaScript library in popular server-side rendering (SSR) frameworks.",
   "main": "dist/main/index.js",
   "module": "dist/module/index.js",
